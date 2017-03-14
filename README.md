@@ -1,6 +1,6 @@
 # Tehnologii-Web
 
 Echipa:
-Bordeianu Andreea
-Gavril Flaviana 
-Bonteanu Ioan Andrei
+Bordeianu Andreea<br>
+Gavril Flaviana <br>
+Bonteanu Ioan Andrei<br>
