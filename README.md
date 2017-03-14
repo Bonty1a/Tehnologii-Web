@@ -2,5 +2,5 @@
 
 Echipa:<br>
 Bordeianu Andreea<br>
-Gavril Flaviana <br>
+Gavril Flaviana Mariana <br>
 Bonteanu Ioan Andrei<br>
