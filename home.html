@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Luna - povesti pentru copii</title>
+<link href="styles/style.css"  rel="stylesheet" type="text/css" />
+<style>
+  .logo{
+    text-align:center;
+  }
+  .intro{
+	text-align:center;
+  }
+  .intro h2{
+	color: #F2DCA8;
+	font-style: oblique;
+	font-family: Papyrus;
+  }
+  .intro p{
+	color: #E7A03A;
+  }
+  .image{
+	position: relative;
+	text-align:center;
+	}
+	.image p{
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	color: #0A0A47;
+	}
+	 
+	 
+	   
+    .container {
+      margin: 5 auto;
+      width: 250px;
+      height: 200px;
+      position: absolute;
+      perspective: 1000px;
+    }
+
+    .carousel {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 500px;
+      top: 110px;
+      transform-style: preserve-3d;
+      transition: transform 2s;
+	  
+    }
+
+	.item a {
+		text-decoration: none;
+		color: #F0ECE2;
+		
+	  }
+	
+	
+    .item {
+      display: block;
+      position: absolute;
+      background: #000;
+      width: 250px;
+      height: 200px;
+      line-height: 200px;
+      font-size: 1em;
+      text-align: center;
+      color: #FFF;
+      opacity: 0.95;
+      border-radius: 10px;
+	  font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .a {
+      transform: rotateY(0deg) translateZ(250px);
+      background: url('Imagini/pic7.jpg');
+	  font-style: oblique;
+	  font-size:20px;
+	  
+	 
+    }
+	
+	.a:hover{
+		width: 120%;
+		height: 110%;
+		border: 3px solid #D2C59F;
+	}
+	
+    .b {
+      transform: rotateY(60deg) translateZ(250px);
+      background: url('Imagini/pic7.jpg');
+	  font-style: oblique;
+	  font-size:20px;
+    }
+	
+	.b:hover{
+		width: 120%;
+		height: 110%;
+		border: 3px solid #D2C59F;
+	}
+	
+    .c {
+      transform: rotateY(120deg) translateZ(250px);
+      background:url('Imagini/pic7.jpg');
+	  font-style: oblique;
+	  font-size:20px;
+	 }
+	 
+	.c:hover{
+		width: 120%;
+		height: 110%;
+		border: 3px solid #D2C59F;
+	}
+	 
+    .d {
+      transform: rotateY(180deg) translateZ(250px);
+      background: url('Imagini/pic7.jpg');
+	  font-style: oblique;
+	  font-size:20px;
+    }
+	
+	.d:hover{
+		width: 120%;
+		height: 110%;
+		border: 3px solid #D2C59F;
+	}
+	
+    .e {
+      transform: rotateY(240deg) translateZ(250px);
+      background: url('Imagini/pic7.jpg');
+	  font-style: oblique;
+	  font-size:20px;
+    } 
+	
+	.e:hover{
+		width: 120%;
+		height: 110%;
+		border: 3px solid #D2C59F;
+	}
+	
+    .f {
+      transform: rotateY(300deg) translateZ(250px);
+      background: url('Imagini/pic7.jpg');
+	  font-style: oblique;
+	  font-size:20px;
+    }
+	
+	.f:hover{
+		width: 120%;
+		height: 110%;
+		border: 3px solid #D2C59F;
+	}
+
+
+    .next, .prev {
+      color: #444;
+      position: absolute;
+      top: 100px;
+      padding: 1em 2em;
+      cursor: pointer;
+      background: #879394;
+      border-radius: 5px;
+      border-top: 1px solid #FFF;
+      box-shadow: 0 5px 0 #555D5D;
+      transition: box-shadow 0.1s, top 0.1s;
+    }
+    .next:hover, .prev:hover { color: #000; }
+    .next:active, .prev:active {
+      top: 104px;
+      box-shadow: 0 1px 0 #999;
+    }
+    .next { right: 5em; }
+    .prev { left: 5em; }
+	
+
+</style>
+</head>
+<body background="Imagini/galaxy.jpg">
+<div class="logo">
+     <a href="acasa.html">
+	 <img src="Imagini/cat.png" width="80">
+     </a>
+</div>
+<div class="intro"> 
+<h2> Lumea povestilor impreuna cu Luna! </h2>
+<p> Alege povestitorul care iti va arata niste povesti de neuitat </p>
+</div>
+ <div class="container">
+              <div class="carousel">
+                <div class="item a"> <a href = "http://www.stow.ro/fratii-grimm.html" title = "Povesti de Fratii Grimm"> Povesti de Fratii Grimm </a></div>
+                <div class="item b"> <a href = "http://www.stow.ro/fratii-grimm.html" title = "Povesti de HC Andersen"> Povesti de HC Andersen </a></div>
+                <div class="item c"> <a href = "http://www.stow.ro/fratii-grimm.html" title = "Povesti de Ion Creanga"> Povesti de Ion Creanga </a></div>
+                <div class="item d"> <a href = "http://www.stow.ro/fratii-grimm.html" title = "Povesti de Mihai Eminescu"> Povesti de Mihai Eminescu </a></div>
+                <div class="item e"> <a href = "http://www.stow.ro/fratii-grimm.html" title = "Povesti de Ioan Slavici"> Povesti de Ioan Slavici </a></div>
+                <div class="item f"> <a href = "http://www.stow.ro/fratii-grimm.html" title = "Povesti de Emilia Plugaru"> Povesti de Emilia Plugaru </a></div>
+              </div>
+            </div>
+            <div class="next">Inainte</div>
+            <div class="prev">Inapoi</div>
+            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+            <script src="js/index.js"></script> 
+
+</body>
+</html>
